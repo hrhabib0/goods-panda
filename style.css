@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+/* custom classes */
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #FEEAE9;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.banner-text h1 {
+    font-size: 56px;
+    color: #1F1F1F;
+}
+
+.banner-text p {
+    width: 40%;
+    color: #4E4E4E;
+}
+
+.banner-text h4 {
+    font-size: 41px;
+    color: #FF136F;
+}
+
+.banner-text button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF136F;
+}
+
+
+/* Categories */
+.categories {
+    color: #FFFFFF;
+}
+
+.category-watch {
+    width: 33.33%;
+    background-color: #FF9C35;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.category-bags {
+    width: 33.33%;
+    background-color: #FF136F;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.category-shoes {
+    width: 33.33%;
+    background-color: #3F07F8;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
