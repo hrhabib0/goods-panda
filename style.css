@@ -28,7 +28,7 @@ body {
 }
 
 .banner-text p {
-    width: 40%;
+    width: 50%;
     color: #4E4E4E;
 }
 
@@ -70,4 +70,52 @@ body {
     background-color: #3F07F8;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+
+/* product cards */
+.shoes-section {
+    margin: 40px 0px;
+}
+
+.product-card-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 5px;
+}
+
+.product-title h1 {
+    font-size: 24px;
+    color: #1F1F1F;
+}
+
+.product-text {
+    color: #4E4E4E;
+    text-align: center;
+}
+
+.product-prize {
+    font-size: 24px;
+}
+
+.product-buying-button button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
 }
