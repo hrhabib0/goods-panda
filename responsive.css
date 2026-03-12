@@ -39,6 +39,27 @@
     .category-name h1 {
         font-size: 28px;
     }
+
+    /* Product card section */
+    .catergory-title {
+        font-size: 32px;
+    }
+
+    .product-card-container {
+        gap: 15px;
+    }
+
+    .product-card {
+        padding: 15px;
+    }
+
+    .product-title h1 {
+        font-size: 22px;
+    }
+
+    .product-image img {
+        max-width: 100%;
+    }
 }
 
 
@@ -76,6 +97,20 @@
     .category-bags,
     .category-shoes {
         width: 45%;
+    }
+
+    /* Product card section */
+    .catergory-title {
+        font-size: 28px;
+    }
+
+    .product-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-card {
+        width: 48%;
     }
 }
 
@@ -125,5 +160,30 @@
 
     .category-name h1 {
         font-size: 22px;
+    }
+
+    /* Product card section */
+    .catergory-title {
+        font-size: 24px;
+    }
+
+    .product-card-container {
+        flex-direction: column;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .product-title h1 {
+        font-size: 20px;
+    }
+
+    .product-text {
+        font-size: 14px;
+    }
+
+    .product-buying-button button {
+        padding: 8px 16px;
     }
 }

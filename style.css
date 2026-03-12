@@ -88,6 +88,10 @@ body {
 
 
 /* product cards */
+.catergory-title {
+    font-size: 36px;
+}
+
 .shoes-section {
     margin: 40px 0px;
 }
@@ -122,7 +126,7 @@ body {
     text-align: center;
 }
 
-.product-prize {
+.product-price {
     font-size: 24px;
 }
 
